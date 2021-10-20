@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="@dimen/px64dp">
+
+    <RelativeLayout
+        android:layout_width="@dimen/px300dp"
+        android:layout_height="@dimen/px300dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/re_box_text"
+            android:layout_width="@dimen/px260dp"
+            android:layout_height="@dimen/px260dp"
+            android:layout_margin="@dimen/px12dp"
+            android:background="@drawable/icon_radius_2577e3"
+            android:gravity="center"
+            android:padding="@dimen/px12dp"
+            android:text="我是盒子"
+            android:textColor="@color/C7"
+            android:textSize="@dimen/px46dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/re_box_xg"
+            android:layout_width="@dimen/px90dp"
+            android:layout_height="@dimen/px90dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/icon_radius_ffffff_2000"
+            android:src="@drawable/xiugai_hui" />
+    </RelativeLayout>
+
+
+</LinearLayout>

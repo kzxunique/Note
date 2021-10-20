@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/one_lyout"
+    android:background="@color/C6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lyout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/px44dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_radius_ffffff"
+                android:orientation="vertical"
+                android:padding="@dimen/px24dp">
+
+                <TextView
+                    style="@style/textTitle_ffffff"
+                    android:layout_width="@dimen/px350dp"
+                    android:layout_height="@dimen/px90dp"
+                    android:background="@drawable/icon_radius_2577e3"
+                    android:gravity="center"
+                    android:text="收纳盒子" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/one_box_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px24dp"
+                android:orientation="vertical"
+                android:padding="@dimen/px24dp">
+
+                <TextView
+                    style="@style/textTitle_ffffff"
+                    android:layout_width="@dimen/px350dp"
+                    android:layout_height="@dimen/px90dp"
+                    android:background="@drawable/icon_radius_2577e3"
+                    android:gravity="center"
+                    android:text="物品列表" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/one_good_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

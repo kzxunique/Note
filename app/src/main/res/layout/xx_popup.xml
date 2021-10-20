@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/icon_radius_ffffff"
+    android:orientation="vertical"
+    android:padding="@dimen/px60dp">
+
+    <TextView
+        android:id="@+id/xxp_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px10dp"
+        android:text=""
+        android:textColor="@color/C1"
+        android:textSize="@dimen/px44dp" />
+
+
+    <TextView
+        android:id="@+id/xxp_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/C3"
+        android:textSize="@dimen/px40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px14dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/xxp_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px60dp"
+            android:gravity="bottom"
+            android:paddingLeft="@dimen/px44dp"
+            android:paddingRight="@dimen/px24dp"
+            android:text="确定"
+            android:textColor="@color/C1"
+            android:textSize="@dimen/px44dp" />
+
+        <TextView
+            android:id="@+id/xxp_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:paddingLeft="@dimen/px24dp"
+            android:text="取消"
+            android:textSize="@dimen/px44dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

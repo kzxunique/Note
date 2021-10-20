@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/C6"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pop_gy"
+        android:layout_width="@dimen/px280dp"
+        android:layout_height="@dimen/px100dp"
+        android:background="@color/C7"
+        android:gravity="center"
+        android:text="关于"
+        android:textColor="@color/C2"
+        android:textSize="@dimen/px38dp" />
+
+    <TextView
+        android:id="@+id/pop_hbj"
+        android:layout_width="@dimen/px280dp"
+        android:layout_height="@dimen/px100dp"
+        android:layout_marginTop="@dimen/px2dp"
+        android:background="@color/C7"
+        android:gravity="center"
+        android:text="换背景"
+        android:textColor="@color/C2"
+        android:textSize="@dimen/px38dp" />
+
+    <TextView
+        android:id="@+id/pop_yy"
+        android:layout_width="@dimen/px280dp"
+        android:layout_height="@dimen/px100dp"
+        android:layout_marginTop="@dimen/px2dp"
+        android:background="@color/C7"
+        android:gravity="center"
+        android:text="开启/停止音乐"
+        android:textColor="@color/C2"
+        android:textSize="@dimen/px38dp" />
+
+
+</LinearLayout>

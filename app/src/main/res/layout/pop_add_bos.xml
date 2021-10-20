@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_radius_ffffff"
+        android:orientation="vertical"
+        android:padding="@dimen/px44dp">
+
+        <TextView
+            android:id="@+id/pop_edt_tit"
+            style="@style/textTitle_colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加收纳盒子" />
+
+        <jcx_092217107.xx.note.base.utils.ClearEditText
+            android:id="@+id/pop_edt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px120dp"
+            android:layout_marginTop="@dimen/px24dp"
+            android:background="@drawable/icon_radius_c6"
+            android:hint="请输入盒子名称"
+            android:paddingLeft="@dimen/px24dp"
+            android:paddingRight="@dimen/px24dp"
+            android:textSize="@dimen/px40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px24dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pop_qx"
+                style="@style/textTitle_ffffff"
+                android:layout_width="@dimen/px180dp"
+                android:layout_height="@dimen/px100dp"
+                android:layout_marginRight="@dimen/px44dp"
+                android:background="@drawable/icon_radius_2577e3"
+                android:gravity="center"
+                android:text="取消" />
+
+            <TextView
+                android:id="@+id/pop_qd"
+                style="@style/textTitle_ffffff"
+                android:layout_width="@dimen/px180dp"
+                android:layout_height="@dimen/px100dp"
+                android:background="@drawable/icon_radius_2577e3"
+                android:gravity="center"
+                android:text="确定" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
